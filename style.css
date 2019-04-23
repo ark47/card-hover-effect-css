@@ -7,6 +7,8 @@ body {
     min-height: 100vh;
     background: linear-gradient(45deg, #24006B, #F42F8C);
     font-family: 'PT Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -24,6 +26,7 @@ body {
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 15px 60px rgba(0,0,0,.5);
+    cursor: pointer;
 }
 
 .container .card .face {
